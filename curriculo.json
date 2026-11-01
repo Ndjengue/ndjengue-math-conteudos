@@ -1,6 +1,6 @@
 {
  "id": "ndjengue-math-curriculo",
- "versao": 1,
+ "versao": 2,
  "resumo": "Currículo da 1.ª classe ao Ensino Universitário",
  "niveis": [
   {
@@ -334,11 +334,21 @@
         {
          "id": "c5-geo-1",
          "titulo": "Perímetro e área do rectângulo",
-         "gerador": "",
+         "gerador": "geometry",
          "licao": "O **perímetro** é a soma dos lados: $P = 2 \\times (c + l)$. A **área** de um rectângulo é $A = c \\times l$.\n\nUm rectângulo com $5$ m por $3$ m tem perímetro $2 \\times (5 + 3) = 16$ m e área $5 \\times 3 = 15$ m².",
          "exemplos": [
-          "2 × (5 + 3)",
-          "5 × 3"
+          "perímetro do rectângulo 5 por 3",
+          "área do rectângulo 5 por 3"
+         ]
+        },
+        {
+         "id": "c5-geo-2",
+         "titulo": "Área do triângulo e do círculo",
+         "gerador": "geometry",
+         "licao": "A **área do triângulo** é metade da base vezes a altura: $A = \\frac{b \\times h}{2}$. A **área do círculo** é $A = \\pi r^2$ e o perímetro é $P = 2\\pi r$, com $\\pi \\approx 3{,}14$.",
+         "exemplos": [
+          "área do triângulo base 6 altura 4",
+          "área do círculo de raio 3"
          ]
         }
        ]
@@ -419,6 +429,33 @@
          "exemplos": [
           "decompor 360",
           "decompor 84"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c6-sol",
+       "titulo": "Sólidos geométricos",
+       "descricao": "Volumes e áreas",
+       "icone": "view_in_ar",
+       "subtemas": [
+        {
+         "id": "c6-sol-1",
+         "titulo": "Volume do cubo e do paralelepípedo",
+         "gerador": "volume",
+         "licao": "O **volume** mede o espaço ocupado. Cubo: $V = a^3$. Paralelepípedo: $V = c \\times l \\times h$.",
+         "exemplos": [
+          "volume do cubo de aresta 3",
+          "volume do paralelepípedo 2 3 4"
+         ]
+        },
+        {
+         "id": "c6-sol-2",
+         "titulo": "Volume do cilindro",
+         "gerador": "volume",
+         "licao": "Cilindro: área da base vezes a altura, $V = \\pi r^2 h$.",
+         "exemplos": [
+          "volume do cilindro raio 2 altura 5"
          ]
         }
        ]
@@ -580,6 +617,24 @@
        ]
       },
       {
+       "id": "c8-pit",
+       "titulo": "Teorema de Pitágoras",
+       "descricao": "Triângulos rectângulos",
+       "icone": "change_history",
+       "subtemas": [
+        {
+         "id": "c8-pit-1",
+         "titulo": "Teorema de Pitágoras",
+         "gerador": "pythagoras",
+         "licao": "Num triângulo rectângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos: $h^2 = c_1^2 + c_2^2$.",
+         "exemplos": [
+          "pitágoras catetos 3 e 4",
+          "hipotenusa 13 cateto 5"
+         ]
+        }
+       ]
+      },
+      {
        "id": "c8-est",
        "titulo": "Estatística",
        "descricao": "Média, mediana e moda",
@@ -653,6 +708,24 @@
          "exemplos": [
           "x^2 - 3x = 0",
           "x^2 - 4 = 0"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c9-frac",
+       "titulo": "Equações fraccionárias",
+       "descricao": "Incógnita no denominador",
+       "icone": "functions",
+       "subtemas": [
+        {
+         "id": "c9-frac-1",
+         "titulo": "Equações com a incógnita no denominador",
+         "gerador": "fractional_equation",
+         "licao": "Primeiro escreve-se a **condição de existência** (denominadores diferentes de zero), depois desembaraça-se de denominadores e, no fim, excluem-se os valores proibidos.",
+         "exemplos": [
+          "1/x + 1 = 3",
+          "x/(x - 1) = 2"
          ]
         }
        ]
@@ -750,6 +823,17 @@
           "sen(pi/6)",
           "cos(pi/3) + sen(pi/2)"
          ]
+        },
+        {
+         "id": "c10-trig-2",
+         "titulo": "Equações trigonométricas",
+         "gerador": "trig_equation",
+         "licao": "$\\operatorname{sen} x = \\operatorname{sen}\\alpha \\Leftrightarrow x = \\alpha + 2k\\pi \\vee x = \\pi - \\alpha + 2k\\pi$; $\\cos x = \\cos\\alpha \\Leftrightarrow x = \\pm\\alpha + 2k\\pi$; $\\operatorname{tg} x = \\operatorname{tg}\\alpha \\Leftrightarrow x = \\alpha + k\\pi$, com $k \\in \\mathbb{Z}$.",
+         "exemplos": [
+          "sen(x) = 1/2",
+          "2cos(x) + 1 = 0",
+          "tg(x) = 1"
+         ]
         }
        ]
       }
@@ -798,6 +882,63 @@
          "licao": "Cada incógnita é o quociente entre o determinante com a coluna substituída pelos termos independentes e o determinante do sistema.",
          "exemplos": [
           "x + y + z = 6; x - y = -1; 2x + y - z = 1"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c11-exp",
+       "titulo": "Funções exponencial e logarítmica",
+       "descricao": "Equações exponenciais e logarítmicas",
+       "icone": "trending_up",
+       "subtemas": [
+        {
+         "id": "c11-exp-1",
+         "titulo": "Equações exponenciais",
+         "gerador": "exp_equation",
+         "licao": "Se as bases são iguais, os expoentes são iguais: $a^u = a^v \\Leftrightarrow u = v$. Caso contrário, usa-se o logaritmo: $a^u = b \\Leftrightarrow u = \\log_a b$.",
+         "exemplos": [
+          "2^x = 8",
+          "3^(x + 1) = 27",
+          "2^x = 5"
+         ]
+        },
+        {
+         "id": "c11-exp-2",
+         "titulo": "Equações logarítmicas",
+         "gerador": "log_equation",
+         "licao": "$\\log_a u = c \\Leftrightarrow u = a^c$, com $u > 0$ (condição de existência).",
+         "exemplos": [
+          "log(x) = 2",
+          "ln(x) = 0"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c11-suc",
+       "titulo": "Sucessões",
+       "descricao": "Progressões aritméticas e geométricas",
+       "icone": "format_list_numbered",
+       "subtemas": [
+        {
+         "id": "c11-suc-1",
+         "titulo": "Progressão aritmética",
+         "gerador": "sequence",
+         "licao": "Cada termo obtém-se somando a razão $r$: $a_n = a_1 + (n-1)r$ e $S_n = \\frac{(a_1 + a_n)\\,n}{2}$.",
+         "exemplos": [
+          "PA a1=2 r=3 n=10",
+          "progressão aritmética 2; 5; 8 n=20"
+         ]
+        },
+        {
+         "id": "c11-suc-2",
+         "titulo": "Progressão geométrica",
+         "gerador": "geometric_sequence",
+         "licao": "Cada termo obtém-se multiplicando pela razão $q$: $a_n = a_1 q^{n-1}$ e $S_n = a_1\\frac{1 - q^n}{1 - q}$.",
+         "exemplos": [
+          "PG a1=3 q=2 n=5",
+          "PG 1; 0,5 n=4"
          ]
         }
        ]
@@ -893,8 +1034,29 @@
          "licao": "$n! = 1 \\times 2 \\times \\dots \\times n$ conta as maneiras de ordenar $n$ objectos. A probabilidade de um acontecimento é $\\frac{\\text{casos favoráveis}}{\\text{casos possíveis}}$.",
          "exemplos": [
           "5!",
-          "3/6",
-          "6!/(2! * 4!)"
+          "P(5)",
+          "3/6"
+         ]
+        },
+        {
+         "id": "c12-prob-2",
+         "titulo": "Combinações e arranjos",
+         "gerador": "combinations",
+         "licao": "Combinações (a ordem não importa): ${}^nC_k = \\frac{n!}{k!(n-k)!}$. Arranjos (a ordem importa): ${}^nA_k = \\frac{n!}{(n-k)!}$.",
+         "exemplos": [
+          "C(10,3)",
+          "combinações de 6 2 a 2",
+          "A(5,2)"
+         ]
+        },
+        {
+         "id": "c12-prob-3",
+         "titulo": "Distribuição binomial",
+         "gerador": "binomial",
+         "licao": "Em $n$ provas independentes com probabilidade de sucesso $p$: $P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$.",
+         "exemplos": [
+          "binomial n=10 p=0,5 k=5",
+          "binomial n=4 p=1/2 x<=1"
          ]
         }
        ]
@@ -986,6 +1148,28 @@
          ]
         },
         {
+         "id": "uni-am-int-3",
+         "titulo": "Integração por partes",
+         "gerador": "integral_parts",
+         "licao": "$\\int u\\,dv = uv - \\int v\\,du$. Escolhe-se para $u$ a função que simplifica ao derivar (logaritmo, polinómio) e para $dv$ a que se primitiva facilmente.",
+         "exemplos": [
+          "integral de x*e^x",
+          "integral de x*ln(x)",
+          "integral de x^2*e^x"
+         ]
+        },
+        {
+         "id": "uni-am-int-4",
+         "titulo": "Integração por substituição",
+         "gerador": "integral_subst",
+         "licao": "Se o integrando é $f(g(x))\\,g'(x)$, faz-se $u = g(x)$: $\\int f(g(x))g'(x)\\,dx = F(g(x)) + C$.",
+         "exemplos": [
+          "integral de 2x*cos(x^2)",
+          "integral de 2x/(x^2 + 1)",
+          "integral de x*e^(x^2)"
+         ]
+        },
+        {
          "id": "uni-am-int-2",
          "titulo": "Integral definido",
          "gerador": "definite",
@@ -1070,6 +1254,85 @@
      ]
     },
     {
+     "id": "uni-edo",
+     "nome": "Equações Diferenciais",
+     "temas": [
+      {
+       "id": "uni-edo-1",
+       "titulo": "Equações de 1.ª ordem",
+       "descricao": "Lineares",
+       "icone": "show_chart",
+       "subtemas": [
+        {
+         "id": "uni-edo-1-1",
+         "titulo": "Equações lineares de 1.ª ordem",
+         "gerador": "ode",
+         "licao": "$y' + p(x)\\,y = q(x)$ resolve-se com o **factor integrante** $\\mu = e^{\\int p\\,dx}$: $(\\mu y)' = \\mu q$.",
+         "exemplos": [
+          "y' = 2y; y(0) = 3",
+          "y' + y = 1",
+          "y' + 2x*y = x"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "uni-edo-2",
+       "titulo": "Equações de 2.ª ordem",
+       "descricao": "Coeficientes constantes",
+       "icone": "ssid_chart",
+       "subtemas": [
+        {
+         "id": "uni-edo-2-1",
+         "titulo": "Equação característica",
+         "gerador": "ode2",
+         "licao": "Para $y'' + by' + cy = 0$ resolve-se $r^2 + br + c = 0$: raízes reais distintas, dupla ou complexas dão $e^{rx}$, $xe^{rx}$ ou $e^{\\alpha x}\\cos\\beta x$ e $e^{\\alpha x}\\operatorname{sen}\\beta x$.",
+         "exemplos": [
+          "y'' - 3y' + 2y = 0",
+          "y'' + 2y' + y = 0",
+          "y'' + 4y = 0; y(0) = 1; y'(0) = 0"
+         ]
+        },
+        {
+         "id": "uni-edo-2-2",
+         "titulo": "Equações não homogéneas",
+         "gerador": "ode2",
+         "licao": "Solução geral = solução da homogénea + uma solução particular (método dos coeficientes indeterminados).",
+         "exemplos": [
+          "y'' - y = x",
+          "y'' + y = e^x",
+          "y'' + 3y' + 2y = sen(x)"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "uni-io",
+     "nome": "Investigação Operacional",
+     "temas": [
+      {
+       "id": "uni-io-pl",
+       "titulo": "Programação linear",
+       "descricao": "Método gráfico",
+       "icone": "insights",
+       "subtemas": [
+        {
+         "id": "uni-io-pl-1",
+         "titulo": "Método gráfico",
+         "gerador": "linear_programming",
+         "licao": "Desenha-se a região admissível (intersecção das restrições). Se existir óptimo, está num **vértice**: calcula-se a função objectivo em cada vértice.",
+         "exemplos": [
+          "maximizar 3x + 2y sujeito a x + y <= 4; x + 3y <= 6; x >= 0; y >= 0",
+          "minimizar 2x + 3y sujeito a x + y >= 5; x >= 1; y >= 1"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
      "id": "uni-pe",
      "nome": "Probabilidades e Estatística",
      "temas": [
@@ -1087,6 +1350,40 @@
          "exemplos": [
           "estatística 2; 4; 4; 4; 5; 5; 7; 9",
           "desvio padrão 10; 12; 23; 23; 16; 23; 21; 16"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "uni-pe2",
+     "nome": "Distribuições de Probabilidade",
+     "temas": [
+      {
+       "id": "uni-pe2-1",
+       "titulo": "Binomial e normal",
+       "descricao": "Modelos de probabilidade",
+       "icone": "area_chart",
+       "subtemas": [
+        {
+         "id": "uni-pe2-1-1",
+         "titulo": "Distribuição binomial",
+         "gerador": "binomial",
+         "licao": "$X \\sim B(n, p)$: $\\mu = np$, $\\sigma = \\sqrt{np(1-p)}$.",
+         "exemplos": [
+          "binomial n=10 p=0,3 k=2",
+          "binomial n=10 p=0,5 x>=8"
+         ]
+        },
+        {
+         "id": "uni-pe2-1-2",
+         "titulo": "Distribuição normal",
+         "gerador": "normal",
+         "licao": "Padroniza-se $Z = \\frac{X - \\mu}{\\sigma}$ e usa-se $\\Phi(z) = P(Z < z)$.",
+         "exemplos": [
+          "normal mu=50 sigma=10 40<x<60",
+          "normal mu=0 sigma=1 x<1,96"
          ]
         }
        ]
@@ -1127,6 +1424,17 @@
        "descricao": "Métodos exactos e numéricos",
        "icone": "ssid_chart",
        "subtemas": [
+        {
+         "id": "uni-mn-raiz-2",
+         "titulo": "Método da bissecção",
+         "gerador": "numeric_root",
+         "licao": "Se $f$ é contínua e $f(a)\\,f(b) < 0$, há um zero em $]a, b[$ (teorema de Bolzano); divide-se o intervalo ao meio repetidamente.",
+         "exemplos": [
+          "cos(x) = x",
+          "e^x = 3 - x",
+          "x^5 + x - 1 = 0"
+         ]
+        },
         {
          "id": "uni-mn-raiz-1",
          "titulo": "Raízes reais",
