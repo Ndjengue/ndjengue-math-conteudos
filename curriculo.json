@@ -1,0 +1,1147 @@
+{
+ "id": "ndjengue-math-curriculo",
+ "versao": 1,
+ "resumo": "Currículo da 1.ª classe ao Ensino Universitário",
+ "niveis": [
+  {
+   "id": "c1",
+   "ciclo": "PRIMARIO",
+   "nome": "1.ª Classe",
+   "descricao": "Primeiros números e contas",
+   "disciplinas": [
+    {
+     "id": "c1-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c1-num",
+       "titulo": "Números até 20",
+       "descricao": "Contar, ler e comparar números",
+       "icone": "pin",
+       "subtemas": [
+        {
+         "id": "c1-num-1",
+         "titulo": "Contar e comparar",
+         "gerador": "add",
+         "licao": "Contamos objectos um a um. Um número é **maior** quando representa mais objectos: $8 > 5$ e $3 < 7$.\n\nOs números seguem-se sempre pela mesma ordem: 1, 2, 3, … Cada número é o anterior mais 1.",
+         "exemplos": [
+          "5 + 1",
+          "8 + 1"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c1-ops",
+       "titulo": "Adição e subtracção",
+       "descricao": "Juntar e retirar até 20",
+       "icone": "add",
+       "subtemas": [
+        {
+         "id": "c1-ops-1",
+         "titulo": "Adição até 20",
+         "gerador": "add",
+         "licao": "**Adicionar** é juntar. Se tens $3$ laranjas e recebes mais $4$, ficas com $3 + 4 = 7$.\n\nA ordem não altera a soma: $3 + 4 = 4 + 3$.",
+         "exemplos": [
+          "3 + 4",
+          "9 + 6"
+         ]
+        },
+        {
+         "id": "c1-ops-2",
+         "titulo": "Subtracção até 20",
+         "gerador": "sub",
+         "licao": "**Subtrair** é retirar. Se tens $9$ lápis e dás $4$, ficas com $9 - 4 = 5$.\n\nPara confirmar, faz a conta ao contrário: $5 + 4 = 9$.",
+         "exemplos": [
+          "9 - 4",
+          "15 - 7"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "ciclo": "PRIMARIO",
+   "nome": "2.ª Classe",
+   "descricao": "Números até 100 e primeiras multiplicações",
+   "disciplinas": [
+    {
+     "id": "c2-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c2-ops",
+       "titulo": "Adição e subtracção até 100",
+       "descricao": "Contas com dezenas e unidades",
+       "icone": "calculate",
+       "subtemas": [
+        {
+         "id": "c2-ops-1",
+         "titulo": "Somar dezenas e unidades",
+         "gerador": "add",
+         "licao": "Num número como $47$, o $4$ vale $4$ dezenas ($40$) e o $7$ vale $7$ unidades.\n\nPara somar, juntam-se unidades com unidades e dezenas com dezenas: $47 + 25 = 72$.",
+         "exemplos": [
+          "47 + 25",
+          "38 + 46"
+         ]
+        },
+        {
+         "id": "c2-ops-2",
+         "titulo": "Subtrair com empréstimo",
+         "gerador": "sub",
+         "licao": "Quando as unidades de cima são menores, pede-se emprestada uma dezena: $52 - 18 = 34$.",
+         "exemplos": [
+          "52 - 18",
+          "90 - 37"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c2-mul",
+       "titulo": "Introdução à multiplicação",
+       "descricao": "Somas de parcelas iguais",
+       "icone": "grid",
+       "subtemas": [
+        {
+         "id": "c2-mul-1",
+         "titulo": "Multiplicar é somar parcelas iguais",
+         "gerador": "mul",
+         "licao": "$3 \\times 4$ significa $3$ grupos de $4$: $4 + 4 + 4 = 12$.\n\nA ordem dos factores não altera o produto: $3 \\times 4 = 4 \\times 3$.",
+         "exemplos": [
+          "3 × 4",
+          "5 × 2"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "ciclo": "PRIMARIO",
+   "nome": "3.ª Classe",
+   "descricao": "Tabuada, divisão e fracções simples",
+   "disciplinas": [
+    {
+     "id": "c3-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c3-mul",
+       "titulo": "Tabuada e multiplicação",
+       "descricao": "Tabuadas até 10",
+       "icone": "grid",
+       "subtemas": [
+        {
+         "id": "c3-mul-1",
+         "titulo": "Tabuadas",
+         "gerador": "mul",
+         "licao": "Saber a tabuada torna as contas rápidas. Exemplo: $7 \\times 8 = 56$.\n\nQualquer número vezes $1$ é ele próprio; vezes $0$ é $0$.",
+         "exemplos": [
+          "7 × 8",
+          "6 × 9"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c3-div",
+       "titulo": "Divisão",
+       "descricao": "Repartir em partes iguais",
+       "icone": "call_split",
+       "subtemas": [
+        {
+         "id": "c3-div-1",
+         "titulo": "Divisão exacta",
+         "gerador": "div",
+         "licao": "**Dividir** é repartir em partes iguais. $12 : 3 = 4$ porque $4 \\times 3 = 12$.\n\nA divisão é a operação inversa da multiplicação.",
+         "exemplos": [
+          "12 : 3",
+          "56 : 7"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c3-fra",
+       "titulo": "Fracções simples",
+       "descricao": "Metades, terços e quartos",
+       "icone": "pie_chart",
+       "subtemas": [
+        {
+         "id": "c3-fra-1",
+         "titulo": "O que é uma fracção",
+         "gerador": "fraction_add",
+         "licao": "Uma fracção $\\frac{a}{b}$ divide a unidade em $b$ partes iguais e toma $a$ delas.\n\n$\\frac{1}{2}$ é metade; $\\frac{1}{4}$ é um quarto. Fracções com o mesmo denominador somam-se pelos numeradores: $\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}$.",
+         "exemplos": [
+          "1/4 + 2/4",
+          "1/2 + 1/2"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "ciclo": "PRIMARIO",
+   "nome": "4.ª Classe",
+   "descricao": "Números grandes, decimais e medidas",
+   "disciplinas": [
+    {
+     "id": "c4-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c4-ops",
+       "titulo": "Operações com números grandes",
+       "descricao": "Algoritmos das quatro operações",
+       "icone": "calculate",
+       "subtemas": [
+        {
+         "id": "c4-ops-1",
+         "titulo": "Multiplicação por dois algarismos",
+         "gerador": "mul",
+         "licao": "Multiplica-se pelas unidades e pelas dezenas e somam-se os resultados: $23 \\times 14 = 23 \\times 10 + 23 \\times 4 = 322$.",
+         "exemplos": [
+          "23 × 14",
+          "45 × 12"
+         ]
+        },
+        {
+         "id": "c4-ops-2",
+         "titulo": "Divisão com resto zero",
+         "gerador": "div",
+         "licao": "Na divisão $144 : 12 = 12$, o dividendo é $144$, o divisor $12$ e o quociente $12$.",
+         "exemplos": [
+          "144 : 12",
+          "625 : 25"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c4-dec",
+       "titulo": "Números decimais",
+       "descricao": "Décimas e centésimas",
+       "icone": "decimal_increase",
+       "subtemas": [
+        {
+         "id": "c4-dec-1",
+         "titulo": "Somar decimais",
+         "gerador": "decimal",
+         "licao": "Alinham-se as vírgulas: unidades com unidades, décimas com décimas. $2{,}5 + 1{,}25 = 3{,}75$.",
+         "exemplos": [
+          "2,5 + 1,25",
+          "10,4 - 3,7"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c4-fra",
+       "titulo": "Fracções equivalentes",
+       "descricao": "Mesma quantidade, escrita diferente",
+       "icone": "pie_chart",
+       "subtemas": [
+        {
+         "id": "c4-fra-1",
+         "titulo": "Simplificar fracções",
+         "gerador": "fraction_add",
+         "licao": "Multiplicando ou dividindo numerador e denominador pelo mesmo número obtém-se uma fracção equivalente: $\\frac{2}{4} = \\frac{1}{2}$.",
+         "exemplos": [
+          "10/4",
+          "6/8 + 1/8"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "ciclo": "PRIMARIO",
+   "nome": "5.ª Classe",
+   "descricao": "Fracções, decimais e percentagens",
+   "disciplinas": [
+    {
+     "id": "c5-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c5-fra",
+       "titulo": "Operações com fracções",
+       "descricao": "Adição, subtracção, multiplicação e divisão",
+       "icone": "pie_chart",
+       "subtemas": [
+        {
+         "id": "c5-fra-1",
+         "titulo": "Adição e subtracção de fracções",
+         "gerador": "fraction_add",
+         "licao": "Com denominadores diferentes, procura-se o **m.m.c.** dos denominadores e escrevem-se fracções equivalentes: $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$.",
+         "exemplos": [
+          "1/2 + 1/3",
+          "3/4 - 1/6"
+         ]
+        },
+        {
+         "id": "c5-fra-2",
+         "titulo": "Multiplicação e divisão de fracções",
+         "gerador": "fraction_mul",
+         "licao": "Multiplicam-se numeradores e denominadores: $\\frac{2}{3} \\times \\frac{3}{5} = \\frac{6}{15} = \\frac{2}{5}$.\n\nPara dividir, multiplica-se pela **inversa**: $\\frac{2}{3} : \\frac{4}{9} = \\frac{2}{3} \\times \\frac{9}{4} = \\frac{3}{2}$.",
+         "exemplos": [
+          "2/3 × 3/5",
+          "2/3 : 4/9"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c5-per",
+       "titulo": "Percentagens",
+       "descricao": "Partes de 100",
+       "icone": "percent",
+       "subtemas": [
+        {
+         "id": "c5-per-1",
+         "titulo": "Calcular uma percentagem",
+         "gerador": "percent",
+         "licao": "$25\\%$ significa $25$ em cada $100$, ou seja $\\frac{25}{100}$. Assim, $25\\%$ de $80$ é $\\frac{25}{100} \\times 80 = 20$.",
+         "exemplos": [
+          "25% de 80",
+          "15% de 200"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c5-geo",
+       "titulo": "Geometria básica",
+       "descricao": "Perímetros e áreas",
+       "icone": "square_foot",
+       "subtemas": [
+        {
+         "id": "c5-geo-1",
+         "titulo": "Perímetro e área do rectângulo",
+         "gerador": "",
+         "licao": "O **perímetro** é a soma dos lados: $P = 2 \\times (c + l)$. A **área** de um rectângulo é $A = c \\times l$.\n\nUm rectângulo com $5$ m por $3$ m tem perímetro $2 \\times (5 + 3) = 16$ m e área $5 \\times 3 = 15$ m².",
+         "exemplos": [
+          "2 × (5 + 3)",
+          "5 × 3"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "ciclo": "PRIMARIO",
+   "nome": "6.ª Classe",
+   "descricao": "Potências, divisores e ordem das operações",
+   "disciplinas": [
+    {
+     "id": "c6-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c6-pot",
+       "titulo": "Potências e ordem das operações",
+       "descricao": "Calcular expressões numéricas",
+       "icone": "superscript",
+       "subtemas": [
+        {
+         "id": "c6-pot-1",
+         "titulo": "Potências",
+         "gerador": "power",
+         "licao": "$a^n$ é o produto de $n$ factores iguais a $a$: $2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32$.",
+         "exemplos": [
+          "2^5",
+          "3^4"
+         ]
+        },
+        {
+         "id": "c6-pot-2",
+         "titulo": "Ordem das operações",
+         "gerador": "order",
+         "licao": "Primeiro **parênteses**, depois **potências**, depois **multiplicações e divisões**, e por fim **adições e subtracções**, da esquerda para a direita.\n\n$2 + 3 \\times 4 = 2 + 12 = 14$, mas $(2 + 3) \\times 4 = 20$.",
+         "exemplos": [
+          "2 + 3 × 4",
+          "(2 + 3) × 4 - 2^3"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c6-div",
+       "titulo": "Divisores e múltiplos",
+       "descricao": "m.d.c., m.m.c. e números primos",
+       "icone": "tag",
+       "subtemas": [
+        {
+         "id": "c6-div-1",
+         "titulo": "Máximo divisor comum",
+         "gerador": "mdc",
+         "licao": "O **m.d.c.** de dois números é o maior número que divide ambos. Pelo algoritmo de Euclides: $\\text{m.d.c.}(12, 18) = 6$.",
+         "exemplos": [
+          "mdc(12; 18)",
+          "mdc(84; 36)"
+         ]
+        },
+        {
+         "id": "c6-div-2",
+         "titulo": "Mínimo múltiplo comum",
+         "gerador": "mmc",
+         "licao": "O **m.m.c.** é o menor múltiplo comum: $\\text{m.m.c.}(4, 6) = 12$. Usa-se para somar fracções.",
+         "exemplos": [
+          "mmc(4; 6)",
+          "mmc(8; 12; 15)"
+         ]
+        },
+        {
+         "id": "c6-div-3",
+         "titulo": "Factores primos",
+         "gerador": "primes",
+         "licao": "Um número **primo** só é divisível por $1$ e por si próprio. Todo o número se decompõe em factores primos: $360 = 2^3 \\times 3^2 \\times 5$.",
+         "exemplos": [
+          "decompor 360",
+          "decompor 84"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "ciclo": "SECUNDARIO_I",
+   "nome": "7.ª Classe",
+   "descricao": "Números racionais e equações do 1.º grau",
+   "disciplinas": [
+    {
+     "id": "c7-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c7-int",
+       "titulo": "Números inteiros e racionais",
+       "descricao": "Operações com sinais",
+       "icone": "exposure",
+       "subtemas": [
+        {
+         "id": "c7-int-1",
+         "titulo": "Regra dos sinais",
+         "gerador": "order",
+         "licao": "Na multiplicação e divisão: sinais iguais dão **+**, sinais diferentes dão **−**. $(-3) \\times (-4) = 12$ e $(-12) : 3 = -4$.",
+         "exemplos": [
+          "-3 * -4",
+          "-12 : 3 + 5"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c7-alg",
+       "titulo": "Expressões algébricas",
+       "descricao": "Letras que representam números",
+       "icone": "functions",
+       "subtemas": [
+        {
+         "id": "c7-alg-1",
+         "titulo": "Termos semelhantes",
+         "gerador": "expand",
+         "licao": "Termos semelhantes têm a mesma parte literal e somam-se pelos coeficientes: $3x + 2x - x = 4x$.",
+         "exemplos": [
+          "simplificar 3x + 2x - x",
+          "2x + 3 para x = 4"
+         ]
+        },
+        {
+         "id": "c7-alg-2",
+         "titulo": "Propriedade distributiva",
+         "gerador": "expand",
+         "licao": "$a(b + c) = ab + ac$. Por exemplo, $3(x + 2) = 3x + 6$.",
+         "exemplos": [
+          "desenvolver 3(x + 2)",
+          "desenvolver 2(x - 5) + 4x"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c7-eq",
+       "titulo": "Equações do 1.º grau",
+       "descricao": "Encontrar o valor da incógnita",
+       "icone": "balance",
+       "subtemas": [
+        {
+         "id": "c7-eq-1",
+         "titulo": "Resolver equações",
+         "gerador": "linear",
+         "licao": "Uma equação é uma **balança em equilíbrio**. Para isolar $x$ faz-se o mesmo nos dois membros.\n\n$2x + 3 = 7 \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$. Verifica-se substituindo: $2 \\times 2 + 3 = 7$.",
+         "exemplos": [
+          "2x + 3 = 7",
+          "3x - 5 = x + 9"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "ciclo": "SECUNDARIO_I",
+   "nome": "8.ª Classe",
+   "descricao": "Polinómios, sistemas e estatística",
+   "disciplinas": [
+    {
+     "id": "c8-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c8-pol",
+       "titulo": "Polinómios e casos notáveis",
+       "descricao": "Desenvolver e factorizar",
+       "icone": "functions",
+       "subtemas": [
+        {
+         "id": "c8-pol-1",
+         "titulo": "Casos notáveis",
+         "gerador": "expand",
+         "licao": "$(a + b)^2 = a^2 + 2ab + b^2$, $(a - b)^2 = a^2 - 2ab + b^2$ e $(a + b)(a - b) = a^2 - b^2$.",
+         "exemplos": [
+          "desenvolver (x + 3)^2",
+          "desenvolver (x + 2)(x - 2)"
+         ]
+        },
+        {
+         "id": "c8-pol-2",
+         "titulo": "Factorização",
+         "gerador": "factor",
+         "licao": "Factorizar é escrever como produto. Primeiro põe-se em evidência o factor comum: $2x^2 - 8 = 2(x^2 - 4) = 2(x - 2)(x + 2)$.",
+         "exemplos": [
+          "factorizar 2x^2 - 8",
+          "factorizar x^2 - 5x + 6"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c8-eq",
+       "titulo": "Equações com denominadores",
+       "descricao": "Desembaraçar de denominadores",
+       "icone": "balance",
+       "subtemas": [
+        {
+         "id": "c8-eq-1",
+         "titulo": "Equações com fracções",
+         "gerador": "linear_frac",
+         "licao": "Multiplicam-se ambos os membros pelo m.m.c. dos denominadores: $\\frac{x}{2} + \\frac{x}{3} = 5 \\Leftrightarrow 3x + 2x = 30 \\Leftrightarrow x = 6$.",
+         "exemplos": [
+          "x/2 + x/3 = 5",
+          "2(x - 1) = 3(x + 2)"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c8-sis",
+       "titulo": "Sistemas de duas equações",
+       "descricao": "Substituição e Cramer",
+       "icone": "join_inner",
+       "subtemas": [
+        {
+         "id": "c8-sis-1",
+         "titulo": "Sistemas 2×2",
+         "gerador": "system",
+         "licao": "Um sistema tem duas equações e duas incógnitas. Pelo **método de substituição** isola-se uma incógnita e substitui-se na outra equação.",
+         "exemplos": [
+          "x + y = 5; x - y = 1",
+          "2x + 3y = 13; 4x - y = 5"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c8-est",
+       "titulo": "Estatística",
+       "descricao": "Média, mediana e moda",
+       "icone": "bar_chart",
+       "subtemas": [
+        {
+         "id": "c8-est-1",
+         "titulo": "Medidas de tendência central",
+         "gerador": "statistics",
+         "licao": "A **média** é a soma dos valores a dividir pelo número de valores. A **mediana** é o valor central dos dados ordenados. A **moda** é o valor mais frequente.",
+         "exemplos": [
+          "média 2; 4; 4; 5; 7",
+          "estatística 12; 15; 11; 15; 18; 20"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "ciclo": "SECUNDARIO_I",
+   "nome": "9.ª Classe",
+   "descricao": "Inequações, equações do 2.º grau e funções",
+   "disciplinas": [
+    {
+     "id": "c9-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c9-ineq",
+       "titulo": "Inequações do 1.º grau",
+       "descricao": "Intervalos de números reais",
+       "icone": "compare_arrows",
+       "subtemas": [
+        {
+         "id": "c9-ineq-1",
+         "titulo": "Resolver inequações",
+         "gerador": "inequality",
+         "licao": "Resolve-se como uma equação, mas **ao multiplicar ou dividir por um número negativo, o sinal inverte-se**. $-3x + 6 \\geq 0 \\Leftrightarrow x \\leq 2$.",
+         "exemplos": [
+          "2x + 1 > 5",
+          "-3x + 6 >= 0"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c9-quad",
+       "titulo": "Equações do 2.º grau",
+       "descricao": "Fórmula resolvente",
+       "icone": "ssid_chart",
+       "subtemas": [
+        {
+         "id": "c9-quad-1",
+         "titulo": "Fórmula resolvente",
+         "gerador": "quadratic",
+         "licao": "Para $ax^2 + bx + c = 0$: calcula-se $\\Delta = b^2 - 4ac$ e $x = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}$.\n\nSe $\\Delta > 0$ há duas soluções; se $\\Delta = 0$ uma; se $\\Delta < 0$ nenhuma solução real.",
+         "exemplos": [
+          "x^2 - 5x + 6 = 0",
+          "2x^2 + 3x - 2 = 0"
+         ]
+        },
+        {
+         "id": "c9-quad-2",
+         "titulo": "Equações incompletas",
+         "gerador": "quadratic",
+         "licao": "Se $c = 0$, põe-se $x$ em evidência: $x^2 - 3x = 0 \\Leftrightarrow x(x - 3) = 0$. Se $b = 0$, isola-se $x^2$: $x^2 = 4 \\Leftrightarrow x = \\pm 2$.",
+         "exemplos": [
+          "x^2 - 3x = 0",
+          "x^2 - 4 = 0"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c9-fun",
+       "titulo": "Função afim",
+       "descricao": "Rectas no plano",
+       "icone": "show_chart",
+       "subtemas": [
+        {
+         "id": "c9-fun-1",
+         "titulo": "Função afim",
+         "gerador": "function",
+         "licao": "$f(x) = mx + b$ é uma recta: $m$ é o **declive** e $b$ a **ordenada na origem**. Se $m > 0$ a função é crescente.",
+         "exemplos": [
+          "f(x) = 2x - 4",
+          "f(x) = -x + 3"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "ciclo": "SECUNDARIO_II",
+   "nome": "10.ª Classe",
+   "descricao": "Funções quadráticas, polinómios e trigonometria",
+   "disciplinas": [
+    {
+     "id": "c10-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c10-quad",
+       "titulo": "Função quadrática",
+       "descricao": "Parábolas, vértice e zeros",
+       "icone": "ssid_chart",
+       "subtemas": [
+        {
+         "id": "c10-quad-1",
+         "titulo": "Estudo da parábola",
+         "gerador": "function",
+         "licao": "O gráfico de $f(x) = ax^2 + bx + c$ é uma parábola com vértice em $x_v = -\\frac{b}{2a}$. Se $a > 0$ tem um mínimo; se $a < 0$, um máximo.",
+         "exemplos": [
+          "f(x) = x^2 - 4x + 3",
+          "f(x) = -x^2 + 2x + 3"
+         ]
+        },
+        {
+         "id": "c10-quad-2",
+         "titulo": "Inequações do 2.º grau",
+         "gerador": "inequality",
+         "licao": "Encontram-se os zeros e estuda-se o sinal pela concavidade: $x^2 - 5x + 6 > 0 \\Leftrightarrow x < 2 \\vee x > 3$.",
+         "exemplos": [
+          "x^2 - 5x + 6 > 0",
+          "x^2 - 4 <= 0"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c10-pol",
+       "titulo": "Polinómios e regra de Ruffini",
+       "descricao": "Divisão por (x − a)",
+       "icone": "functions",
+       "subtemas": [
+        {
+         "id": "c10-pol-1",
+         "titulo": "Regra de Ruffini",
+         "gerador": "factor",
+         "licao": "Se $P(a) = 0$, então $(x - a)$ divide $P(x)$ (teorema do resto). As raízes racionais são da forma $\\pm\\frac{p}{q}$.",
+         "exemplos": [
+          "x^3 - 6x^2 + 11x - 6 = 0",
+          "factorizar x^3 - x"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c10-trig",
+       "titulo": "Trigonometria",
+       "descricao": "Seno, cosseno e tangente",
+       "icone": "change_history",
+       "subtemas": [
+        {
+         "id": "c10-trig-1",
+         "titulo": "Razões trigonométricas",
+         "gerador": "",
+         "licao": "Num triângulo rectângulo: $\\operatorname{sen}\\alpha = \\frac{\\text{cateto oposto}}{\\text{hipotenusa}}$, $\\cos\\alpha = \\frac{\\text{cateto adjacente}}{\\text{hipotenusa}}$. Os ângulos no motor estão em **radianos** ($180° = \\pi$).",
+         "exemplos": [
+          "sen(pi/6)",
+          "cos(pi/3) + sen(pi/2)"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c11",
+   "ciclo": "SECUNDARIO_II",
+   "nome": "11.ª Classe",
+   "descricao": "Matrizes, sistemas e limites",
+   "disciplinas": [
+    {
+     "id": "c11-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c11-mat",
+       "titulo": "Matrizes e determinantes",
+       "descricao": "Regra de Sarrus",
+       "icone": "grid_on",
+       "subtemas": [
+        {
+         "id": "c11-mat-1",
+         "titulo": "Determinantes",
+         "gerador": "matrix_det",
+         "licao": "Para $2 \\times 2$: $\\det = ad - bc$. Para $3 \\times 3$ usa-se a **regra de Sarrus**.",
+         "exemplos": [
+          "det [1 2; 3 4]",
+          "det [2 0 1; 1 3 2; 1 1 2]"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c11-sis",
+       "titulo": "Sistemas de três equações",
+       "descricao": "Regra de Cramer",
+       "icone": "join_inner",
+       "subtemas": [
+        {
+         "id": "c11-sis-1",
+         "titulo": "Regra de Cramer",
+         "gerador": "system",
+         "licao": "Cada incógnita é o quociente entre o determinante com a coluna substituída pelos termos independentes e o determinante do sistema.",
+         "exemplos": [
+          "x + y + z = 6; x - y = -1; 2x + y - z = 1"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c11-lim",
+       "titulo": "Limites",
+       "descricao": "Comportamento perto de um ponto",
+       "icone": "trending_flat",
+       "subtemas": [
+        {
+         "id": "c11-lim-1",
+         "titulo": "Limites e indeterminações",
+         "gerador": "limit",
+         "licao": "Primeiro substitui-se. Se aparece $\\frac{0}{0}$, simplifica-se (ou aplica-se a regra de L'Hôpital). No infinito, conta o termo de maior grau.",
+         "exemplos": [
+          "limite de (x^2 - 4)/(x - 2) quando x tende para 2",
+          "limite de (2x^2 + 1)/(x^2 - 3) quando x tende para infinito"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c12",
+   "ciclo": "SECUNDARIO_II",
+   "nome": "12.ª Classe",
+   "descricao": "Derivadas, primitivas e probabilidades",
+   "disciplinas": [
+    {
+     "id": "c12-mat",
+     "nome": "Matemática",
+     "temas": [
+      {
+       "id": "c12-der",
+       "titulo": "Derivadas",
+       "descricao": "Taxa de variação instantânea",
+       "icone": "trending_up",
+       "subtemas": [
+        {
+         "id": "c12-der-1",
+         "titulo": "Regras de derivação",
+         "gerador": "derivative",
+         "licao": "$(x^n)' = n x^{n-1}$, $(u + v)' = u' + v'$, $(uv)' = u'v + uv'$, $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$.",
+         "exemplos": [
+          "derivada de x^3 + 2x",
+          "derivada de x^2 * sen(x)"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c12-int",
+       "titulo": "Primitivas e integrais",
+       "descricao": "Área sob uma curva",
+       "icone": "area_chart",
+       "subtemas": [
+        {
+         "id": "c12-int-1",
+         "titulo": "Primitivas imediatas",
+         "gerador": "integral",
+         "licao": "$\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C$ para $n \\neq -1$; $\\int \\frac{1}{x}\\,dx = \\ln|x| + C$.",
+         "exemplos": [
+          "integral de 3x^2 + 2x",
+          "integral de cos(x) + e^x"
+         ]
+        },
+        {
+         "id": "c12-int-2",
+         "titulo": "Integral definido",
+         "gerador": "definite",
+         "licao": "Pelo teorema fundamental do cálculo: $\\int_a^b f(x)\\,dx = F(b) - F(a)$, onde $F$ é uma primitiva de $f$.",
+         "exemplos": [
+          "integral de x^2 de 0 a 2",
+          "integral de sen(x) de 0 a pi"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c12-prob",
+       "titulo": "Combinatória e probabilidades",
+       "descricao": "Contar casos",
+       "icone": "casino",
+       "subtemas": [
+        {
+         "id": "c12-prob-1",
+         "titulo": "Factorial e arranjos",
+         "gerador": "",
+         "licao": "$n! = 1 \\times 2 \\times \\dots \\times n$ conta as maneiras de ordenar $n$ objectos. A probabilidade de um acontecimento é $\\frac{\\text{casos favoráveis}}{\\text{casos possíveis}}$.",
+         "exemplos": [
+          "5!",
+          "3/6",
+          "6!/(2! * 4!)"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uni",
+   "ciclo": "UNIVERSITARIO",
+   "nome": "Ensino Universitário",
+   "descricao": "Análise, Álgebra Linear e Estatística",
+   "disciplinas": [
+    {
+     "id": "uni-am",
+     "nome": "Análise Matemática I",
+     "temas": [
+      {
+       "id": "uni-am-lim",
+       "titulo": "Limites e continuidade",
+       "descricao": "Indeterminações e L'Hôpital",
+       "icone": "trending_flat",
+       "subtemas": [
+        {
+         "id": "uni-am-lim-1",
+         "titulo": "Regra de L'Hôpital",
+         "gerador": "limit",
+         "licao": "Se $\\lim f = \\lim g = 0$, então $\\lim \\frac{f}{g} = \\lim \\frac{f'}{g'}$ (quando este existe).",
+         "exemplos": [
+          "limite de sen(x)/x quando x tende para 0",
+          "limite de (x^3 - 1)/(x - 1) quando x tende para 1"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "uni-am-der",
+       "titulo": "Cálculo diferencial",
+       "descricao": "Regra da cadeia e derivadas de ordem superior",
+       "icone": "trending_up",
+       "subtemas": [
+        {
+         "id": "uni-am-der-1",
+         "titulo": "Regra da cadeia",
+         "gerador": "derivative",
+         "licao": "$(f(g(x)))' = f'(g(x)) \\cdot g'(x)$. Exemplo: $(\\ln(x^2 + 1))' = \\frac{2x}{x^2 + 1}$.",
+         "exemplos": [
+          "derivada de ln(x^2 + 1)",
+          "derivada de e^(2x)"
+         ]
+        },
+        {
+         "id": "uni-am-der-2",
+         "titulo": "Derivadas de ordem superior",
+         "gerador": "derivative",
+         "licao": "A segunda derivada é a derivada da derivada e estuda a concavidade.",
+         "exemplos": [
+          "derivada segunda de x^4",
+          "derivada segunda de sen(x)"
+         ]
+        },
+        {
+         "id": "uni-am-der-3",
+         "titulo": "Estudo de funções",
+         "gerador": "function",
+         "licao": "Com $f'$ encontram-se os pontos críticos (máximos e mínimos) e a monotonia.",
+         "exemplos": [
+          "f(x) = x^3 - 3x",
+          "f(x) = x^3 - 6x^2 + 9x"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "uni-am-int",
+       "titulo": "Cálculo integral",
+       "descricao": "Primitivas e integrais definidos",
+       "icone": "area_chart",
+       "subtemas": [
+        {
+         "id": "uni-am-int-1",
+         "titulo": "Primitivas",
+         "gerador": "integral",
+         "licao": "Linearidade: $\\int (af + bg) = a\\int f + b\\int g$. Para argumentos lineares: $\\int \\cos(ax + b)\\,dx = \\frac{\\operatorname{sen}(ax + b)}{a} + C$.",
+         "exemplos": [
+          "integral de cos(2x) + e^x",
+          "integral de 1/(2x + 1)"
+         ]
+        },
+        {
+         "id": "uni-am-int-2",
+         "titulo": "Integral definido",
+         "gerador": "definite",
+         "licao": "O valor exacto obtém-se com uma primitiva; o motor confirma-o pela regra de Simpson.",
+         "exemplos": [
+          "integral de x^3 - x de 0 a 2",
+          "integral de e^x de 0 a 1"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "uni-al",
+     "nome": "Álgebra Linear e Geometria Analítica",
+     "temas": [
+      {
+       "id": "uni-al-mat",
+       "titulo": "Matrizes",
+       "descricao": "Operações e inversa",
+       "icone": "grid_on",
+       "subtemas": [
+        {
+         "id": "uni-al-mat-1",
+         "titulo": "Produto de matrizes",
+         "gerador": "",
+         "licao": "$C = AB$ com $c_{ij} = \\sum_k a_{ik} b_{kj}$. Só existe se o número de colunas de $A$ for igual ao número de linhas de $B$.",
+         "exemplos": [
+          "[1 2; 3 4] * [5 6; 7 8]",
+          "transposta [1 2 3; 4 5 6]"
+         ]
+        },
+        {
+         "id": "uni-al-mat-2",
+         "titulo": "Matriz inversa",
+         "gerador": "matrix_inv",
+         "licao": "$A$ é invertível se e só se $\\det A \\neq 0$. Calcula-se por Gauss-Jordan: $[A \\mid I] \\to [I \\mid A^{-1}]$.",
+         "exemplos": [
+          "inversa [4 7; 2 6]",
+          "inversa [1 2 0; 0 1 3; 1 0 1]"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "uni-al-det",
+       "titulo": "Determinantes",
+       "descricao": "Laplace e Sarrus",
+       "icone": "grid_4x4",
+       "subtemas": [
+        {
+         "id": "uni-al-det-1",
+         "titulo": "Teorema de Laplace",
+         "gerador": "matrix_det",
+         "licao": "Desenvolve-se por uma linha: $\\det A = \\sum_j (-1)^{i+j} a_{ij} M_{ij}$.",
+         "exemplos": [
+          "det [1 0 2 1; 0 3 1 0; 2 1 0 1; 1 0 1 2]",
+          "det [[1,2,3],[0,1,4],[5,6,0]]"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "uni-al-sis",
+       "titulo": "Sistemas lineares",
+       "descricao": "Gauss e classificação",
+       "icone": "join_inner",
+       "subtemas": [
+        {
+         "id": "uni-al-sis-1",
+         "titulo": "Classificação de sistemas",
+         "gerador": "system",
+         "licao": "Pelo teorema de Rouché: o sistema é possível se $\\operatorname{car}(A) = \\operatorname{car}(A|b)$; determinado se, além disso, for igual ao número de incógnitas.",
+         "exemplos": [
+          "x + y + z = 6; x - y = -1; 2x + z = 5",
+          "característica [1 2 3; 2 4 6; 1 0 1]"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "uni-pe",
+     "nome": "Probabilidades e Estatística",
+     "temas": [
+      {
+       "id": "uni-pe-desc",
+       "titulo": "Estatística descritiva",
+       "descricao": "Dispersão",
+       "icone": "bar_chart",
+       "subtemas": [
+        {
+         "id": "uni-pe-desc-1",
+         "titulo": "Variância e desvio padrão",
+         "gerador": "statistics",
+         "licao": "Variância amostral: $s^2 = \\frac{\\sum (x_i - \\bar{x})^2}{n - 1}$; o desvio padrão é $s = \\sqrt{s^2}$.",
+         "exemplos": [
+          "estatística 2; 4; 4; 4; 5; 5; 7; 9",
+          "desvio padrão 10; 12; 23; 23; 16; 23; 21; 16"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "uni-md",
+     "nome": "Matemática Discreta",
+     "temas": [
+      {
+       "id": "uni-md-ar",
+       "titulo": "Aritmética dos inteiros",
+       "descricao": "Euclides e factorização",
+       "icone": "tag",
+       "subtemas": [
+        {
+         "id": "uni-md-ar-1",
+         "titulo": "Algoritmo de Euclides",
+         "gerador": "mdc",
+         "licao": "$\\text{mdc}(a, b) = \\text{mdc}(b, a \\bmod b)$, até o resto ser $0$.",
+         "exemplos": [
+          "mdc(1071; 462)",
+          "decompor 1001"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "uni-mn",
+     "nome": "Métodos Numéricos",
+     "temas": [
+      {
+       "id": "uni-mn-raiz",
+       "titulo": "Raízes de polinómios",
+       "descricao": "Métodos exactos e numéricos",
+       "icone": "ssid_chart",
+       "subtemas": [
+        {
+         "id": "uni-mn-raiz-1",
+         "titulo": "Raízes reais",
+         "gerador": "quadratic",
+         "licao": "Raízes racionais pela regra de Ruffini; as restantes por métodos numéricos iterativos (Durand–Kerner).",
+         "exemplos": [
+          "x^3 - 2x - 5 = 0",
+          "x^2 - 2x - 1 = 0"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
